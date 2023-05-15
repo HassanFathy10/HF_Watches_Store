@@ -21,6 +21,13 @@ body {
 /* Start navbar */
 .navbar .navbar-brand{
     font-size: 1.25rem;
+    color: white;
+}
+.navbar .icon {
+    color: white;
+}
+.navbar .icon:hover {
+    color: var(--black-color);
 }
 .nav-item .nav-link {
     color: white;
@@ -29,7 +36,10 @@ body {
 }
 .nav-item .nav-link.active,
 .nav-item .nav-link:focus,
-.nav-item .nav-link:hover{
+.nav-item .nav-link:hover {
     color: #f1be87 !important;
+}
+.navbar .navbar-toggler {
+
 }
 /* End navbat */
