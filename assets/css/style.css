@@ -21,10 +21,11 @@ body {
 /* Start navbar */
 .navbar .navbar-brand{
     font-size: 1.25rem;
-    color: white;
+    color: white !important;
 }
 .navbar .icon {
     color: white;
+    font-size: 1.1rem;
 }
 .navbar .icon:hover {
     color: var(--black-color);
