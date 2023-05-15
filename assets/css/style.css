@@ -17,3 +17,19 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: var(--black-color) !important;
 }
+
+/* Start navbar */
+.navbar .navbar-brand{
+    font-size: 1.25rem;
+}
+.nav-item .nav-link {
+    color: white;
+    font-size:1.1rem;
+    font-weight: bolder;
+}
+.nav-item .nav-link.active,
+.nav-item .nav-link:focus,
+.nav-item .nav-link:hover{
+    color: #f1be87 !important;
+}
+/* End navbat */
