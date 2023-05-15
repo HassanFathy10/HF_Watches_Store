@@ -40,6 +40,13 @@ body {
     color: #f1be87 !important;
 }
 .navbar .navbar-toggler {
-
+    color: white;
+    border-color: white;
+}
+.navbar .navbar-toggler:focus {
+    box-shadow: none;
+}
+.navbar .navbar-toggler[aria-expanded="true"] {
+    border-color: var(--black-color);
 }
 /* End navbat */
