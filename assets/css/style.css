@@ -51,3 +51,19 @@ body {
     border-color: var(--black-color);
 }
 /* End navbar */
+
+/* Start landing */
+.landing {
+    min-height: calc(100vh - 56px);
+}
+
+.watch img{
+    background-color: var(--beige-color) !important;
+}
+.links {
+    top:30%;
+    left: -10rem;
+    float: left;
+    transform: rotate(-90deg);
+}
+/* End landing */
