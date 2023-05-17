@@ -7,12 +7,6 @@
     --button-color: #3d3d3d;
 }
 /* base */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    scroll-behavior: smooth;
-}
 body {
     font-family: "Roboto", sans-serif;
     background-color: var(--black-color) !important;
@@ -54,16 +48,19 @@ body {
 
 /* Start landing */
 .landing {
-    min-height: calc(100vh - 56px);
+    min-height: 100vh;
 }
-
-.watch img{
+.landing img{
     background-color: var(--beige-color) !important;
 }
-.links {
-    top:30%;
-    left: -10rem;
+.landing .icon {
+    top:25%;
+    left: -4rem;
     float: left;
-    transform: rotate(-90deg);
+    display: grid;
+    row-gap: 1rem;
+}
+.landing .price {
+    color: var(--beige-color);
 }
 /* End landing */
