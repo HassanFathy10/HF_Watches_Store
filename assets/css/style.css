@@ -11,7 +11,16 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: var(--black-color) !important;
 }
-
+.main-btn {
+    background-color: var(--button-color) !important;
+    border-radius: 0 !important;
+    padding: 1rem 0.8rem !important;
+}
+.dis-btn {
+    background-color: var(--gray-color) !important;
+    border-radius: 0 !important;
+    padding: 0.6rem 1rem !important;
+}
 /* Start navbar */
 .navbar .navbar-brand{
     font-size: 1.25rem;
@@ -52,13 +61,6 @@ body {
 }
 .landing img{
     background-color: var(--beige-color) !important;
-}
-.landing .icon {
-    top:25%;
-    left: -4rem;
-    float: left;
-    display: grid;
-    row-gap: 1rem;
 }
 .landing .price {
     color: var(--beige-color);
