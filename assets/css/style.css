@@ -5,6 +5,7 @@
     --gray-color: #bfbfbf;
     --font-color: #a47c58;
     --button-color: #3d3d3d;
+    --card-color: #292929;
 }
 /* base */
 body {
@@ -57,12 +58,53 @@ body {
 
 /* Start landing */
 .landing {
-    min-height: 100vh;
+    min-height: calc(100vh - 100px);
 }
 .landing img{
     background-color: var(--beige-color) !important;
 }
-.landing .price {
+.price {
     color: var(--beige-color);
 }
 /* End landing */
+
+/* Start featured */
+.featured::before{
+    content: "";
+    background-color: var(--beige-color);
+    position: absolute;
+    width: 120px;
+    height: 1px;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-49%);
+}
+.featured .card {
+    background-color: var(--card-color);
+    border: 1px solid var(--beige-color);
+}
+.featured .card:hover {
+    box-shadow: 0px 0px 20px rgba(238, 210, 157, 0.404);
+    padding: 1rem 0 2rem 0;
+    transition: 0.5s;
+
+}
+.featured .img-featured {
+    background-color: var(--card-color);
+    width: 150px;
+}
+.featured .img-featured1 {
+    background-color: var(--card-color);
+    width: 154.5px;
+}
+.featured .main-btn {
+    opacity: 0;
+    transition: 0.3s;
+    transform: translateY(1rem);
+}
+.card:hover .main-btn{
+    opacity: 1;
+    transform: translateY(0rem);
+} 
+
+/* End featured */
