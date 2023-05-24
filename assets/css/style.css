@@ -149,6 +149,10 @@ div.card {
 .img-products {
     background-color: var(--card-color);
 }
+.img-director {
+    width: 100px;
+    border-radius: 180px;
+}
 .products .icon {
     color: var(--beige-color);
 }
