@@ -23,6 +23,9 @@ body {
     padding: 0.6rem 1rem !important;
 }
 /* Start navbar */
+.navbar {
+    background-color: #1f1f1f94;
+}
 .navbar .navbar-brand{
     font-size: 1.25rem;
     color: white !important;
