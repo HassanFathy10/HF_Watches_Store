@@ -149,4 +149,7 @@ div.card {
 .img-products {
     background-color: var(--card-color);
 }
+.products .icon {
+    color: var(--beige-color);
+}
 /* End products */
