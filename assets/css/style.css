@@ -175,8 +175,22 @@ div.card {
     left: 50%;
     transform: translate(-50%);
 }
-.subscribe-bg {
+.subscribe {
     background-color: var(--beige-color);
+}
+input:focus {
+    outline: none;
+}
+input::placeholder {
+    color: var(--button-color);
+}
+.subscribe input {
+    background-color: var(--beige-color);
+    border-bottom: 1px solid white !important;
+}
+.subscribe-btn {
+    background-color: var(--black-color) !important;
+    border-radius: 0 !important;
 }
 /* End Arrivals */
 
