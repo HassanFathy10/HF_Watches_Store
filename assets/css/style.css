@@ -156,4 +156,10 @@ div.card {
 .products .icon {
     color: var(--beige-color);
 }
+.products .img-thumbnail {
+    background-color: var(--beige-color);
+}
+.products .row .swipe {
+    margin-top: 100px !important;
+}
 /* End products */
