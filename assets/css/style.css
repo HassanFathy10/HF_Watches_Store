@@ -55,7 +55,7 @@ body {
     box-shadow: none;
 }
 .navbar .navbar-toggler[aria-expanded="true"] {
-    border-color: var(--black-color);
+    border-color: var(--beige-color);
 }
 /* End navbar */
 
@@ -106,7 +106,7 @@ div.card {
     width: 144.9px;
 }
 /* end cards */
-.main-btn {
+.card .main-btn {
     opacity: 0;
     transition: 0.3s;
     transform: translateY(1rem);
@@ -150,8 +150,9 @@ div.card {
     background-color: var(--card-color);
 }
 .img-director {
-    width: 100px;
-    border-radius: 180px;
+    height: 90px;
+    width: 90px;
+    border-radius: 100%;
 }
 .products .icon {
     color: var(--beige-color);
@@ -160,6 +161,30 @@ div.card {
     background-color: var(--beige-color);
 }
 .products .row .swipe {
-    margin-top: 100px !important;
+    margin-right: 100px !important;
 }
 /* End products */
+
+/* Start Arrivals */
+.arrivals::before {
+    content: "";
+    border: 1px solid var(--beige-color);
+    width: 120px;
+    height: 1px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.subscribe-bg {
+    background-color: var(--beige-color);
+}
+/* End Arrivals */
+
+/* <div class="col-lg-3">
+<div class="card align-items-center">                                
+    <img class="img-card mt-5" src="assets/images/product1.png" class="d-block w-100" alt="...">
+    <h3 class="text-white fs-5 fw-bold mt-4">DUCHEN</h3>
+    <p class="price fs-5 fw-bold mb-5">$950</p>
+    <a class="btn main-btn text-white fw-semibold fs-6 mb-5" href="#">ADD TO CART</a>
+</div>
+</div> */
