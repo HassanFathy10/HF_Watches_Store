@@ -94,15 +94,12 @@ div.card {
 
 }
 .img-card {
-    background-color: var(--card-color);
     width: 150px;
 }
 .img-card1 {
-    background-color: var(--card-color);
     width: 154.5px;
 }
 .img-card2 {
-    background-color: var(--card-color);
     width: 144.9px;
 }
 /* end cards */
@@ -120,9 +117,6 @@ div.card {
     transform: rotate(-90deg);
     margin-left: -8px;
     margin-top: 50px;
-}
-.featured .text {
-    margin-top: 100px;
 }
 .featured .text::before {
     content: "";
@@ -162,8 +156,30 @@ div.card {
 }
 .products .row .swipe {
     margin-right: 100px !important;
+} 
+.products button  {
+    top: auto;
 }
 /* End products */
+
+/* Start swipe cards */
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+swiper-slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+/* End swipe cards */
 
 /* Start Arrivals */
 .arrivals::before {
@@ -175,6 +191,23 @@ div.card {
     left: 50%;
     transform: translate(-50%);
 }
+.arrivals .arrivals-card:hover {
+    background-color: var(--beige-color);
+    box-shadow: none;
+}
+.arrivals .card .price {
+    color: rgb(0, 0, 0);
+}
+.arrivals .new {
+    background-color: var(--beige-color);
+    margin-right: 75%;
+    margin-bottom: 20px;
+    position: absolute;
+    border-radius: 3px;
+}
+/* End Arrivals */
+
+/* Start Subscribe */
 .subscribe {
     background-color: var(--beige-color);
 }
@@ -192,13 +225,5 @@ input::placeholder {
     background-color: var(--black-color) !important;
     border-radius: 0 !important;
 }
-/* End Arrivals */
+/* End Subscribe */
 
-/* <div class="col-lg-3">
-<div class="card align-items-center">                                
-    <img class="img-card mt-5" src="assets/images/product1.png" class="d-block w-100" alt="...">
-    <h3 class="text-white fs-5 fw-bold mt-4">DUCHEN</h3>
-    <p class="price fs-5 fw-bold mb-5">$950</p>
-    <a class="btn main-btn text-white fw-semibold fs-6 mb-5" href="#">ADD TO CART</a>
-</div>
-</div> */
