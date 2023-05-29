@@ -83,7 +83,7 @@ body {
     transform: translateX(-49%);
 }
 /* cards */
-div.card {
+article.card {
     background-color: var(--card-color);
     border: 1px solid var(--beige-color);
 }
